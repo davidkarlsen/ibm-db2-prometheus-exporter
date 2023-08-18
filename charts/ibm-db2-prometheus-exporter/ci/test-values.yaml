@@ -1,3 +1,5 @@
+securityContext:
+  runAsUser: 1000
 serviceMonitor:
   create: false
 db2:
