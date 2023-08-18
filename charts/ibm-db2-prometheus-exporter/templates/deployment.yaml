@@ -37,7 +37,7 @@ spec:
           - name: IBM_DB2_EXPORTER_DB
             value: {{ .Values.db2.database | quote }}
           - name: IBM_DB2_EXPORTER_DSN
-            value: "DATABASE={{ .Values.db2.database }};HOSTNAME={{ .Values.db2.hostname }};PORT={{ .Values.db2.port }};UID={{ .Values.db2.userId }};PWD=$(DB2PASSWORD)"
+            value: "DATABASE={{ .Values.db2.database }};HOSTNAME={{ .Values.db2.hostname }};PORT={{ .Values.db2.port }};UID={{ .Values.db2.userId }};PWD=$(DB2PASSWORD);"
           {{- if .Values.db2.instanceSecret }}
           - name: DB2PASSWORD
             valueFrom:
