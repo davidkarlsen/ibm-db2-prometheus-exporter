@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM golang:1.20 as build
+FROM golang:1.25 as build
 ARG IBM_DB_VER=v0.4.4
 
 RUN go install github.com/ibmdb/go_ibm_db/installer@${IBM_DB_VER}
