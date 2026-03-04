@@ -3,6 +3,26 @@ entries:
   ibm-db2-prometheus-exporter:
   - apiVersion: v2
     appVersion: master
+    created: "2026-03-04T11:51:01.757857024Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for IBM DB2 prometheus exporter
+    digest: 4b884048e78123edb1f8ea2df0b465fa08e5dcbeb1c97aa5b92351e7dc53cc13
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png
+    maintainers:
+    - email: david@davidkarlsen.com
+      name: davidkarlsen
+    name: ibm-db2-prometheus-exporter
+    type: application
+    urls:
+    - https://github.com/davidkarlsen/ibm-db2-prometheus-exporter/releases/download/ibm-db2-prometheus-exporter-0.2.3/ibm-db2-prometheus-exporter-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: master
     created: "2023-08-21T10:02:47.212478979Z"
     dependencies:
     - name: common
@@ -81,4 +101,4 @@ entries:
     urls:
     - https://github.com/davidkarlsen/ibm-db2-prometheus-exporter/releases/download/ibm-db2-prometheus-exporter-0.1.2/ibm-db2-prometheus-exporter-0.1.2.tgz
     version: 0.1.2
-generated: "2023-08-21T10:02:47.21253668Z"
+generated: "2026-03-04T11:51:01.757876811Z"
